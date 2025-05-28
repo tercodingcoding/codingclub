@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Belajar List HTML</title>
+</head>
+
+<body>
+    <h1>HTML List</h1>
+    <p>Pada bagian ini, Anda akan belajar tentang penggunaan tag <b>&lt;ul&gt;</b> (unordered list), <b>&lt;ol&gt;</b>
+        (ordered list), dan <b>&lt;li&gt;</b> (list item) di HTML.</p>
+    <ul>
+        <li>Materi & Contoh List
+            <ul>
+                <li><b>&lt;ul&gt;</b> (unordered list) untuk membuat daftar tak berurutan (bullets).</li>
+                <li><b>&lt;ol&gt;</b> (ordered list) untuk membuat daftar berurutan (angka/abjad).</li>
+                <li><b>&lt;li&gt;</b> (list item) untuk setiap item di dalam list.</li>
+                <li>Contoh <b>unordered list</b>:
+                    <pre><code>&lt;ul&gt;
+  &lt;li&gt;HTML&lt;/li&gt;
+  &lt;li&gt;CSS&lt;/li&gt;
+  &lt;li&gt;JavaScript&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </li>
+                <li>Contoh <b>ordered list</b>:
+                    <pre><code>&lt;ol&gt;
+  &lt;li&gt;Buka editor&lt;/li&gt;
+  &lt;li&gt;Tulis kode&lt;/li&gt;
+  &lt;li&gt;Simpan file&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+                    <ol>
+                        <li>Buka editor</li>
+                        <li>Tulis kode</li>
+                        <li>Simpan file</li>
+                    </ol>
+                </li>
+                <li>List bisa bersarang (nested list):
+                    <pre><code>&lt;ul&gt;
+  &lt;li&gt;Buah
+    &lt;ul&gt;
+      &lt;li&gt;Apel&lt;/li&gt;
+      &lt;li&gt;Jeruk&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Sayur&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+                    <ul>
+                        <li>Buah
+                            <ul>
+                                <li>Apel</li>
+                                <li>Jeruk</li>
+                            </ul>
+                        </li>
+                        <li>Sayur</li>
+                    </ul>
+                </li>
+                <li>Ordered list bisa diubah tipenya dengan atribut <b>type</b>:
+                    <pre><code>&lt;ol type="A"&gt;
+  &lt;li&gt;Satu&lt;/li&gt;
+  &lt;li&gt;Dua&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+                    <ol type="A">
+                        <li>Satu</li>
+                        <li>Dua</li>
+                    </ol>
+                </li>
+                <li>Mulai nomor ordered list dari angka tertentu dengan atribut <b>start</b>:
+                    <pre><code>&lt;ol start="5"&gt;
+  &lt;li&gt;Lima&lt;/li&gt;
+  &lt;li&gt;Enam&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+                    <ol start="5">
+                        <li>Lima</li>
+                        <li>Enam</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <p><b>Catatan:</b> Untuk latihan, silakan buka file <code>latihan.html</code> pada folder ini di code editor Anda,
+        lalu kerjakan sesuai instruksi di dalam file tersebut.</p>
+</body>
+
+</html>

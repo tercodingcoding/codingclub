@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Belajar Table HTML</title>
+</head>
+
+<body>
+    <h1>HTML Table</h1>
+    <p>Pada bagian ini, Anda akan belajar tentang penggunaan tag &lt;table&gt; untuk membuat tabel di HTML.</p>
+    <ul>
+        <li>Materi &amp; Contoh Table
+            <ul>
+                <li><b>&lt;table&gt;</b> digunakan untuk membuat tabel di HTML.</li>
+                <li><b>&lt;tr&gt;</b> (table row) untuk membuat baris pada tabel.</li>
+                <li><b>&lt;th&gt;</b> (table header) untuk membuat judul kolom.</li>
+                <li><b>&lt;td&gt;</b> (table data) untuk membuat sel data.</li>
+                <li>Setiap tabel minimal terdiri dari satu baris judul (<b>&lt;tr&gt;</b> berisi <b>&lt;th&gt;</b>) dan
+                    satu baris data (<b>&lt;tr&gt;</b> berisi <b>&lt;td&gt;</b>).</li>
+                <li>Contoh sederhana tabel:
+                    <pre><code>&lt;table border="1"&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Nama&lt;/th&gt;
+    &lt;th&gt;Umur&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Ani&lt;/td&gt;
+    &lt;td&gt;20&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+                </li>
+                <li>Hasil di browser:</li>
+            </ul>
+            <table border="1">
+                <tr>
+                    <th>Nama</th>
+                    <th>Umur</th>
+                </tr>
+                <tr>
+                    <td>Ani</td>
+                    <td>20</td>
+                </tr>
+            </table>
+            <p>Tips:</p>
+            <ul>
+                <li>Gunakan atribut <b>border</b> agar tabel terlihat jelas saat belajar.</li>
+                <li>Anda bisa menambah baris data sebanyak yang dibutuhkan dengan menambah tag <b>&lt;tr&gt;</b> baru.
+                </li>
+                <li>Untuk tabel yang lebih kompleks, bisa juga menggunakan <b>&lt;thead&gt;</b>, <b>&lt;tbody&gt;</b>,
+                    dan <b>&lt;tfoot&gt;</b> untuk membagi bagian tabel.</li>
+            </ul>
+            <p>Contoh penggunaan <b>colspan</b> dan <b>rowspan</b>:</p>
+            <pre><code>&lt;table border="1"&gt;
+  &lt;tr&gt;
+    &lt;th colspan="2"&gt;Data Mahasiswa&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td rowspan="2"&gt;Ani&lt;/td&gt;
+    &lt;td&gt;20&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Teknik Informatika&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+            <p>Hasil di browser:</p>
+            <table border="1">
+                <tr>
+                    <th colspan="2">Data Mahasiswa</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">Ani</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>Teknik Informatika</td>
+                </tr>
+            </table>
+            <p><b>colspan</b> digunakan untuk menggabungkan beberapa kolom, sedangkan <b>rowspan</b> untuk menggabungkan
+                beberapa baris.</p>
+        </li>
+    </ul>
+    <p><b>Catatan:</b> Untuk latihan, silakan buka file <code>latihan.html</code> pada folder ini di code editor Anda,
+        lalu kerjakan sesuai instruksi di dalam file tersebut.</p>
+</body>
+
+</html>
