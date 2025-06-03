@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selector</title>
+</head>
+
+<body>
+    <h1>CSS Selector</h1>
+    <p>Selector di CSS digunakan untuk memilih elemen HTML yang ingin diberi style. Ada beberapa jenis selector yang
+        sering digunakan:</p>
+    <ul>
+        <li><b>Selector Tag</b>: Memilih semua elemen dengan nama tag tertentu.<br>
+            <code>p { color: red; }</code> (semua paragraf jadi merah)
+        </li>
+        <li><b>Selector Class</b>: Memilih elemen dengan atribut <code>class</code> tertentu.<br>
+            <code>.judul { font-weight: bold; }</code> (semua elemen dengan class="judul")
+        </li>
+        <li><b>Selector ID</b>: Memilih elemen dengan atribut <code>id</code> tertentu.<br>
+            <code>#utama { font-size: 30px; }</code> (elemen dengan id="utama")
+        </li>
+        <li><b>Selector Gabungan</b>: Bisa menggabungkan beberapa selector.<br>
+            <code>h1, h2 { color: blue; }</code> (semua h1 dan h2 jadi biru)
+        </li>
+    </ul>
+    <h2>Contoh:</h2>
+    <pre><code>&lt;h1 class="judul" id="utama"&gt;Selamat Datang&lt;/h1&gt;
+&lt;p&gt;Ini paragraf biasa&lt;/p&gt;
+&lt;p class="judul"&gt;Ini paragraf penting&lt;/p&gt;
+
+/* CSS: */
+h1 { color: green; }
+.judul { font-style: italic; }
+#utama { text-decoration: underline; }
+</code></pre>
+    <p><b>Catatan:</b> Untuk latihan, silakan buka file <code>latihan.html</code> pada folder ini di code editor Anda,
+        lalu kerjakan sesuai instruksi di dalam file tersebut.</p>
+    <p>apabila ingin memahami lebih lanjut boleh mainkan <a href="https://flukeout.github.io/" target="_blank">game
+            ini</a></p>
+</body>
+
+</html>

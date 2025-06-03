@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Dasar</title>
+</head>
+
+<body>
+    <h1>CSS Dasar</h1>
+    <p>CSS (Cascading Style Sheets) adalah bahasa yang digunakan untuk mengatur tampilan dan layout halaman web. Dengan
+        CSS, kamu bisa mengubah warna, ukuran, font, jarak, dan banyak lagi pada elemen HTML.</p>
+    <h2>Cara Menyisipkan CSS</h2>
+    <ol>
+        <li><b>Inline</b> (langsung pada elemen HTML):<br>
+            <code>&lt;p style="color: red;"&gt;Teks ini merah&lt;/p&gt;</code>
+        </li>
+        <li><b>Internal</b> (menggunakan tag &lt;style&gt; di &lt;head&gt;):<br>
+            <pre><code>&lt;head&gt;
+  &lt;style&gt;
+    p { color: blue; }
+  &lt;/style&gt;
+&lt;/head&gt;</code></pre>
+        </li>
+        <li><b>External</b> (menggunakan file .css terpisah):<br>
+            <code>&lt;link rel="stylesheet" href="style.css"&gt;</code>
+        </li>
+    </ol>
+    <h2>Syntax CSS Dasar</h2>
+    <pre><code>selector {
+  property: value;
+}</code></pre>
+    <p>Contoh:</p>
+    <pre><code>h1 {
+  color: green;
+  font-size: 32px;
+}</code></pre>
+    <p>Artinya: Semua elemen <b>&lt;h1&gt;</b> akan berwarna hijau dan berukuran 32px.</p>
+    <p><b>Catatan:</b> Untuk latihan, silakan buka file <code>latihan.html</code> pada folder ini di code editor Anda,
+        lalu kerjakan sesuai instruksi di dalam file tersebut.</p>
+</body>
+
+</html>

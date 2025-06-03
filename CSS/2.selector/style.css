@@ -1,0 +1,10 @@
+/* Solusi CSS Selector */
+h1 {
+	color: green;
+}
+.judul {
+	font-style: italic;
+}
+#utama {
+	text-decoration: underline;
+}
