@@ -7,7 +7,7 @@ tempat belajarnya coding club..
 
 clone / download zip
 
-![alt text](image.png)
+![alt text](./assets/image.png)
 
 
 
