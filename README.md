@@ -14,3 +14,5 @@ setelah membaca materi buka file latihan untuk mengerjakan latihan.
 
 Apabila ada kesulitan silahkan buka file solusinya..
 ![alt text](./assets/image-3.png)
+
+test update
